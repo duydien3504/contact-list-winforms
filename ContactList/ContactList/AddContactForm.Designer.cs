@@ -33,6 +33,8 @@
             this.btnLuu = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.txt_email = new System.Windows.Forms.TextBox();
+            this.lblAdditionalInfo = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // txtHoTen
@@ -79,11 +81,30 @@
             this.txt_email.Size = new System.Drawing.Size(100, 22);
             this.txt_email.TabIndex = 4;
             // 
+            // lblAdditionalInfo
+            // 
+            this.lblAdditionalInfo.AutoSize = true;
+            this.lblAdditionalInfo.Location = new System.Drawing.Point(81, 218);
+            this.lblAdditionalInfo.Name = "lblAdditionalInfo";
+            this.lblAdditionalInfo.Size = new System.Drawing.Size(113, 16);
+            this.lblAdditionalInfo.TabIndex = 5;
+            this.lblAdditionalInfo.Text = "Thông tin bổ sung";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(220, 218);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 22);
+            this.textBox1.TabIndex = 6;
+            this.textBox1.Text = "Thông tin bổ sung";
+            // 
             // AddContactForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.lblAdditionalInfo);
             this.Controls.Add(this.txt_email);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnLuu);
@@ -103,5 +124,7 @@
         private System.Windows.Forms.Button btnLuu;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txt_email;
+        private System.Windows.Forms.Label lblAdditionalInfo;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
